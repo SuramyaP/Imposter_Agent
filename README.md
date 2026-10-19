@@ -2,6 +2,9 @@
 
 # DeceptiveUAV
 
+
+<video src="ICRA-VIDEO_final_try7.mp4" controls width="100%"></video>
+
 A deceptive agent **D** inside a multi-UAV swarm fabricates obstacle reports to
 delay honest agents from reaching their goals, while evading a Bayesian
 trust-fusion detector. This repo holds the simulator, the attackers (learned
@@ -13,8 +16,6 @@ D's presence, measured against the identical grid with D's slot removed.
 
 The model weights are present in this link:
 * [Model Weights](https://drive.google.com/drive/folders/1igEK3sLVWKhg35LjVMuie6Xs_GXtWeqi?usp=drive_link)
-
-<video src="ICRA-VIDEO_final_try7.mp4" controls width="100%"></video>
 
 ---
 

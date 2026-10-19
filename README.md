@@ -20,13 +20,9 @@ D's presence, measured against the identical grid with D's slot removed.
 3. [Trust and detection](#3-trust-and-detection)
 4. [Attackers](#4-attackers)
 5. [Training pipeline](#5-training-pipeline)
-6. [Evaluation](#6-evaluation)
-7. [Results](#7-results)
-8. [Sensitivity sweeps](#8-sensitivity-sweeps)
-9. [Visualisation](#9-visualisation)
-10. [Crazyflie / Gazebo](#10-crazyflie--gazebo)
-11. [Known issues](#11-known-issues-read-before-publishing)
-12. [File map](#12-file-map)
+6. [Sensitivity sweeps](#8-sensitivity-sweeps)
+7. [Crazyflie / Gazebo](#10-crazyflie--gazebo)
+
 
 ---
 
@@ -346,7 +342,7 @@ conflates the two. Cite Emmons et al.
 | `max_revivals` | 3 |
 
 
-## 8. Sensitivity sweeps
+## 6. Sensitivity sweeps
 
 ```bash
 python3 -m experiments.sensitivity 1      # honest agent count: 2,3,5,6
@@ -395,7 +391,7 @@ episodes are censored.
 ---
 
 
-## 10. Crazyflie / Gazebo
+## 7. Crazyflie / Gazebo
 
 ```bash
 bash crazyflie/run_seed_gazebo.sh 200001                     # simulate + launch + play

@@ -11,6 +11,10 @@ Crazyflie visualisation and deployment path.
 The metric throughout is **delay**: the increase in mission makespan caused by
 D's presence, measured against the identical grid with D's slot removed.
 
+The model weights are present in this link:
+* [Model Weights](https://drive.google.com/drive/folders/1igEK3sLVWKhg35LjVMuie6Xs_GXtWeqi?usp=drive_link)
+
+
 ---
 
 ## Contents
